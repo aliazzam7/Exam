@@ -1,0 +1,281 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a0e7e5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+    border: 1px solid #007bff;
+    background-color: #002852;
+}
+
+.form {
+    background-color: #003b7a;
+    box-shadow: 0 0 10px rgb(1, 136, 199);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.form input[type="text"] {
+    flex: 2;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.radio-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.radio-buttons input[type="radio"] {
+    margin-right: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button#addSpecific {
+    background-color: #007bff;
+    color: #fff;
+}
+
+button#addGeneral {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+button#search, button#delete {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.tables {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.tables div {
+    flex: 1;
+}
+
+.tables h3 {
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 4px;
+}
+
+#fruitList {
+    background-color: #f1c40f;
+}
+
+#generalList {
+    background-color: #8e44ad;
+    color: #fff;
+}
+
+#legumeList {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.list li {
+    background-color: #b1bfc0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.actions input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
+/*
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a0e7e5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+hr{
+    color: #3700ff;
+    background-color: #007bff;
+}
+.form {
+    background-color: #003b7a;
+    box-shadow: 0 0 10px rgb(1, 136, 199);
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+   
+}
+
+.form input[type="text"] {
+    flex: 2;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.radio-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.radio-buttons input[type="radio"] {
+    margin-right: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button#addSpecific {
+    background-color: #007bff;
+    color: #fff;
+}
+
+button#addGeneral {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+button#search, button#delete {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.tables {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.tables div {
+    flex: 1;
+}
+
+.tables h3 {
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 4px;
+}
+
+#fruitList {
+    background-color: #f1c40f;
+}
+
+#generalList {
+    background-color: #8e44ad;
+    color: #fff;
+}
+
+#legumeList {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.list li {
+   
+   background-color: #b1bfc0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.actions input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+*/
